@@ -1,0 +1,41 @@
+body {
+    background-color: green;
+}
+
+
+h1 {
+    text-align:center;
+}
+
+
+h2 {
+    text-align:center
+}
+
+
+.bye {
+    color: red;
+}
+
+
+.one {
+    border-style: inset;
+}
+
+
+.hi {
+    color: red;
+}
+
+
+.two {
+    border-style: inset;
+}
+
+#four {
+    border-style: inset;
+}
+
+img{
+    margin: 20px;
+}

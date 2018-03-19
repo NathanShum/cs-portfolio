@@ -1,0 +1,25 @@
+body {
+    background-color: #171817;
+}
+
+h2 {
+    color: #716FDF;
+    border-style: outset;
+}
+
+h3 {
+    color: #32D73C;
+}
+
+h4 {
+    color: #32D73C;
+}
+
+.picture {
+    width: 800px;
+    height: 500px;
+    padding: 5px;
+    border-width: 5px;
+    border-color: yellowgreen;
+    border-style: dashed solid;
+}

@@ -1,0 +1,24 @@
+.aboutme {
+    text-align: center;
+}
+
+body {
+    background-color: #2299DA;
+    color: #5D2D02;
+    text-align: center;
+}
+
+.line {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    margin: 1px;
+}
+
+img {
+    border-style: inset;
+}
+
+.pic {
+    margin: 10px;
+}
