@@ -5,8 +5,20 @@
     <meta name="viewport" content="width=DEVICE-WIDTH, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="navbar.css" type="text/css">
 </head>
 <body>
+    
+    <!--adds the following pages to the navbar-->
+    <ul class="navbar">
+            <a href=aboutme.html><li> About Me</li></a>
+            <a href="aboutmehowto.html"><li> How To - About Me</li></a>
+            <a href="art.html"><li>Art</li></a>
+            <a href="arthowto.html"><li>How To - Art</li></a>
+            <a href="interactive.html"><li>Interactive Page</li></a>
+            <a href="interactivehowto.html"><li>How to - Interactive</li></a>
+    </ul>
+    
     <h2>Thoughts Before the Project</h2>
     <p>The first step I took after thinking about an idea was how to execute it.
     I thought of making an info page, but I didn't know how so I decided to use "select" to make a list of dates just in case people didn't know the exact dates to type in if I used a search bar.
@@ -50,15 +62,39 @@
     
     <img class="picture" src="html to js.png" width="1300">
     
-    <h2>Step 5- Event Listener</h2>
+    <h2>Step 5- Event Listener and First If Statment</h2>
     <p>The next step inolves putting the tags and variables to good use. 
     I took the button's variable and added ".addEventListener("click", function)" after. Now, the action will trigger after the button is clicked.
     I added if statements corresponding to the number of options in the select tag. For me, I added 5. 
+    My if statements allowed me to give a picture for a visual and words for a bit of context and background info.
+    I did the same things for the rest of my if statements.
     My first if statement looked like this...
     </p>
     
     <img class="picture" src="if statement.png" width="1300">
     
+    <h2>Step 6- Adding My Second If Satement</h2>
+    <p>One of the lasts steps is adding an extra if statement that will change the color of the background when the button is clicked. 
+    I added another event listener with the same function and had an if statement for each of the options.
+    "document.body.style.backgroundColor" allows the background color to be changed based on what you want it to be.
+    </p>
+    
+    <img class="picture" src="if statement 2.png" width="1300">
+    
+    <h2>Final Step- Using CSS</h2>
+    <p>The last step is using CSS to change background color, font color, header position, etc. 
+    I only used this for small things and you can basically do this in HTML, but I find it easier to do it in CSS.</p>
+    
+    <img class="picture" src="css example" width="1300">
+    
+    <h2>Summary</h2>
+    <p>My project utilizes 3 ids in my Javascript: my button, select tag, and my div tag.
+    The HTML is simple, with an image, header, etc.
+    My Javascript has 2 event listeners that react to the click of the button. 
+    One event listener adds a picture and text.
+    The other event listener changes background color. The final product looked like this in the end...</p>
+    
+    <img src="end product.png" width="1300">
     
 </body>
 </html>
