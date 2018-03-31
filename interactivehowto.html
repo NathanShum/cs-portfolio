@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h3>Thoughts Before the Project</h3>
+    <h2>Thoughts Before the Project</h2>
     <p>The first step I took after thinking about an idea was how to execute it.
     I thought of making an info page, but I didn't know how so I decided to use "select" to make a list of dates just in case people didn't know the exact dates to type in if I used a search bar.
     I started researching by finding out Mario's highest selling point. 
@@ -15,33 +15,49 @@
     I also took note of
     </p>
     
-    <h3>Step 1, Research and Select Tag</h3>
+    <h2>Step 1- Research and Select Tag</h2>
     <p>The select bar had to have differnet sections, or years, to indicate the major evolutions of Mario. 
     At the end, I kinda cheated a little and just searched up "Evolutions of Mario" though.
-    I used a select tag to mark down the dates, separating the years where Mario evolved. 
+    I used a select tag with an id of "Mdate" to mark down the dates, separating the years where Mario evolved. 
     I also changed the size of the button to a width of 200 to make clicking the button easier.
     These steps were taken to make the select tag only. 
     It should look like this after you make a select tag...
     </p>
     
-    <img class="picture" src="select example.png" width="700">
+    <img class="picture" src="select example.png" width="1300">
     
-    <h3>Step 2, Button Tag</h3>
-    <p>The next step involves making a button that triggers an action and corresponds to whichever year selected. 
+    <h2>Step 2- Button Tag</h2>
+    <p>The next step involves making a button with an id of "searchB" that triggers an action and corresponds to whichever year selected. 
     To start, I made a button tag with the words "search" on it. 
     This step is fairly simple, and you can customize the button however way you like it to.
     After making a button, it should look like this...</p>
     
-    <img class="picture" src="button example.png" width="700">
+    <img class="picture" src="button example.png" width="1300">
     
-    <h3>Step 3, Header and Div Tag</h3>
-    <p>The last step in setting up the page involves making a title for the page and making a div that makes space for text to appear after tweaking with the Javascript.
+    <h2>Step 3- Header and Div Tag</h2>
+    <p>The last step in setting up the page involves making a title for the page and making a div named "infoS" that makes space for text to appear after tweaking with the Javascript.
     After setting up in the HTML, it should look like this...
     </p>
     
-    <img class="picture" src="div example.png" width="700">
+    <img class="picture" src="div example.png" width="1300">
     
-    <h3>Step 4, </h3>
+    <h2>Step 4- Transfering Tariables</h2>
+    <p> Transfering variables is fairly easy. Start by writing var in the JS followed by the name of your div in HTML.
+    Next, add "document.getElementById" which would find and bring the div from HTML to JS. 
+    Follow the "document.getElementById" with (name of you variable in HTML).
+    Now, all of your divs are transfered to JS.
+    </p>
+    
+    <img class="picture" src="html to js.png" width="1300">
+    
+    <h2>Step 5- Event Listener</h2>
+    <p>The next step inolves putting the tags and variables to good use. 
+    I took the button's variable and added ".addEventListener("click", function)" after. Now, the action will trigger after the button is clicked.
+    I added if statements corresponding to the number of options in the select tag. For me, I added 5. 
+    My first if statement looked like this...
+    </p>
+    
+    <img class="picture" src="if statement.png" width="1300">
     
     
 </body>
